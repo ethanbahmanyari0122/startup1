@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4c06041-caa8-4be1-8573-3bb2e4c4918b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1i0QpVYrURAroeqku5UptDinibZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Init.BalloonShown" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="WindowStateProjectService">
+    <state x="248" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601107609833">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="248" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.710@0.23.1280.710" timestamp="1601045022159" />
+    <state x="248" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.716@0.23.1280.716" timestamp="1601107609833" />
+    <state x="384" y="227" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1601200134358">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="384" y="227" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.23.1280.721@0.23.1280.721" timestamp="1601200134358" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1601107606385">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.23.1280.716@0.23.1280.716" timestamp="1601107606385" />
+    <state x="513" y="304" key="Github.ShareDialog" timestamp="1601199154512">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="513" y="304" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1601199154512" />
+    <state width="412" height="212" key="GridCell.Tab.0.bottom" timestamp="1601199954641">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="412" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1601199954641" />
+    <state width="412" height="212" key="GridCell.Tab.0.center" timestamp="1601199954638">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="412" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1601199954638" />
+    <state width="412" height="212" key="GridCell.Tab.0.left" timestamp="1601199954636">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="412" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1601199954636" />
+    <state width="412" height="212" key="GridCell.Tab.0.right" timestamp="1601199954639">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="412" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1601199954639" />
+    <state x="149" y="23" width="997" height="722" key="SettingsEditor" timestamp="1601199322175">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="149" y="23" width="997" height="722" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1601199322175" />
+    <state x="149" y="23" width="997" height="710" key="SettingsEditor/0.23.1280.710@0.23.1280.710" timestamp="1601044690474" />
+    <state x="149" y="23" key="SettingsEditor/0.23.1280.715@0.23.1280.715" timestamp="1601047600780" />
+    <state x="527" y="169" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1601118939883">
+      <screen x="0" y="23" width="1280" height="721" />
+    </state>
+    <state x="527" y="168" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1280.716@0.23.1280.716" timestamp="1601106855926" />
+    <state x="527" y="169" width="346" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1280.721@0.23.1280.721" timestamp="1601118939883" />
+    <state x="523" y="168" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1601106583332">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="523" y="168" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog/0.23.1280.716@0.23.1280.716" timestamp="1601106583332" />
+    <state x="236" y="69" key="com.intellij.database.dbimport.ImportDialog" timestamp="1601107979329">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="236" y="69" key="com.intellij.database.dbimport.ImportDialog/0.23.1280.710@0.23.1280.710" timestamp="1601045526061" />
+    <state x="236" y="69" key="com.intellij.database.dbimport.ImportDialog/0.23.1280.716@0.23.1280.716" timestamp="1601107979329" />
+    <state x="386" y="208" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog" timestamp="1601045522534">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="386" y="208" key="com.intellij.database.dbimport.ImportUtil.ChooseTargetDialog/0.23.1280.710@0.23.1280.710" timestamp="1601045522534" />
+    <state x="353" y="297" width="460" height="303" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1601118057419">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="353" y="297" width="460" height="303" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.23.1280.716@0.23.1280.716" timestamp="1601118057419" />
+    <state x="0" y="23" width="1280" height="715" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1601138562014">
+      <screen x="0" y="23" width="1280" height="715" />
+    </state>
+    <state x="780" y="291" width="500" height="439" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1280.710@0.23.1280.710" timestamp="1601045999118" />
+    <state x="0" y="23" width="1280" height="715" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1280.715@0.23.1280.715" timestamp="1601138562014" />
+    <state x="0" y="23" width="1280" height="716" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1280.716@0.23.1280.716" timestamp="1601137787824" />
+    <state x="421" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1280.721@0.23.1280.721" timestamp="1601118933922" />
+    <state x="421" y="166" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1280.723@0.23.1280.723" timestamp="1601118636653" />
+    <state x="467" y="67" key="data.grid.dml.preview.dialog" timestamp="1601108087930">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="467" y="67" key="data.grid.dml.preview.dialog/0.23.1280.716@0.23.1280.716" timestamp="1601108087930" />
+    <state x="236" y="57" key="editAsTableFormatDialogDimension" timestamp="1601045394848">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="236" y="57" key="editAsTableFormatDialogDimension/0.23.1280.710@0.23.1280.710" timestamp="1601045394848" />
+    <state x="100" y="100" width="1080" height="600" key="git4idea.log.GitShowExternalLogAction" timestamp="1601199508413">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="git4idea.log.GitShowExternalLogAction/0.0.1280.800@0.0.1280.800" timestamp="1601199508413" />
+    <state x="302" y="117" key="run.anything.popup" timestamp="1601138616594">
+      <screen x="0" y="23" width="1280" height="716" />
+    </state>
+    <state x="302" y="117" key="run.anything.popup/0.23.1280.716@0.23.1280.716" timestamp="1601138616594" />
+    <state x="313" y="57" width="670" height="676" key="search.everywhere.popup" timestamp="1601044671243">
+      <screen x="0" y="23" width="1280" height="710" />
+    </state>
+    <state x="313" y="57" width="670" height="676" key="search.everywhere.popup/0.23.1280.710@0.23.1280.710" timestamp="1601044671243" />
+  </component>
+</project>
