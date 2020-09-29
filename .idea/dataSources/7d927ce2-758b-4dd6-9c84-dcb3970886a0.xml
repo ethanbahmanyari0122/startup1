@@ -10,218 +10,312 @@
     <collation id="3" parent="1" name="BINARY"/>
     <collation id="4" parent="1" name="NOCASE"/>
     <collation id="5" parent="1" name="RTRIM"/>
-    <table id="6" parent="2" name="customer"/>
-    <table id="7" parent="2" name="ingredients"/>
-    <table id="8" parent="2" name="orderingredient"/>
-    <table id="9" parent="2" name="orders"/>
-    <table id="10" parent="2" name="sqlite_master">
+    <table id="6" parent="2" name="Recipes"/>
+    <table id="7" parent="2" name="allergies"/>
+    <table id="8" parent="2" name="customer"/>
+    <table id="9" parent="2" name="foodDiets"/>
+    <table id="10" parent="2" name="ingredients"/>
+    <table id="11" parent="2" name="orderingredient"/>
+    <table id="12" parent="2" name="orders"/>
+    <table id="13" parent="2" name="recipeIngredients"/>
+    <table id="14" parent="2" name="sqlite_master">
       <System>1</System>
     </table>
-    <table id="11" parent="2" name="sqlite_sequence">
+    <table id="15" parent="2" name="sqlite_sequence">
       <System>1</System>
     </table>
-    <table id="12" parent="2" name="supplier"/>
-    <column id="13" parent="6" name="customerNr">
+    <table id="16" parent="2" name="supplier"/>
+    <column id="17" parent="6" name="recipeNr">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="18" parent="6" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="19" parent="6" name="dietNr">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <column id="20" parent="6" name="totalCalories">
+      <Position>4</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="21" parent="6" name="Recipes_pk">
+      <ColNames>recipeNr</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="22" parent="6">
+      <ColNames>dietNr</ColNames>
+      <RefTableName>foodDiets</RefTableName>
+      <RefKeyName>foodDiets_pk</RefKeyName>
+      <RefColNames>dietNr</RefColNames>
+    </foreign-key>
+    <column id="23" parent="7" name="allergyNr">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+      <DefaultExpression>600</DefaultExpression>
+    </column>
+    <column id="24" parent="7" name="ingredientsNr">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <key id="25" parent="7" name="allergies_pk">
+      <ColNames>allergyNr</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="26" parent="7">
+      <ColNames>ingredientsNr</ColNames>
+      <RefTableName>ingredients</RefTableName>
+      <RefKeyName>ingredients_pk</RefKeyName>
+      <RefColNames>ingredientNr</RefColNames>
+    </foreign-key>
+    <column id="27" parent="8" name="customerNr">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="14" parent="6" name="lastName">
+    <column id="28" parent="8" name="lastName">
       <Position>2</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="15" parent="6" name="firstName">
+    <column id="29" parent="8" name="firstName">
       <Position>3</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="16" parent="6" name="birthday">
+    <column id="30" parent="8" name="birthday">
       <Position>4</Position>
       <DataType>DATE|0s</DataType>
     </column>
-    <column id="17" parent="6" name="street">
+    <column id="31" parent="8" name="street">
       <Position>5</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="18" parent="6" name="houseNr">
+    <column id="32" parent="8" name="houseNr">
       <Position>6</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="19" parent="6" name="plz">
+    <column id="33" parent="8" name="plz">
       <Position>7</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="20" parent="6" name="city">
+    <column id="34" parent="8" name="city">
       <Position>8</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="21" parent="6" name="phoneNr">
+    <column id="35" parent="8" name="phoneNr">
       <Position>9</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="22" parent="6" name="email">
+    <column id="36" parent="8" name="email">
       <Position>10</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <key id="23" parent="6" name="customer_pk">
+    <key id="37" parent="8" name="customer_pk">
       <ColNames>customerNr</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="24" parent="7" name="ingredientNr">
+    <column id="38" parent="9" name="dietNr">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="39" parent="9" name="name">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="40" parent="9" name="foodDiets_pk">
+      <ColNames>dietNr</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="10" name="ingredientNr">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="25" parent="7" name="name">
+    <column id="42" parent="10" name="name">
       <Position>2</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="26" parent="7" name="unit">
+    <column id="43" parent="10" name="unit">
       <Position>3</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="27" parent="7" name="unitPrice">
+    <column id="44" parent="10" name="unitPrice">
       <Position>4</Position>
       <DataType>DECIMAL|0s</DataType>
     </column>
-    <column id="28" parent="7" name="stock">
+    <column id="45" parent="10" name="stock">
       <Position>5</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="29" parent="7" name="supplierNr">
+    <column id="46" parent="10" name="supplierNr">
       <Position>6</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="30" parent="7" name="calories">
+    <column id="47" parent="10" name="calories">
       <Position>7</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="31" parent="7" name="carbohydrate">
+    <column id="48" parent="10" name="carbohydrate">
       <Position>8</Position>
       <DataType>Decimal|0s</DataType>
     </column>
-    <column id="32" parent="7" name="protein">
+    <column id="49" parent="10" name="protein">
       <Position>9</Position>
       <DataType>DECIMAL|0s</DataType>
     </column>
-    <key id="33" parent="7" name="ingredients_pk">
+    <key id="50" parent="10" name="ingredients_pk">
       <ColNames>ingredientNr</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="34" parent="7">
+    <foreign-key id="51" parent="10">
       <ColNames>supplierNr</ColNames>
       <RefTableName>supplier</RefTableName>
       <RefKeyName>supplier_pk</RefKeyName>
       <RefColNames>supplierNr</RefColNames>
     </foreign-key>
-    <column id="35" parent="8" name="orderNr">
+    <column id="52" parent="11" name="orderNr">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="36" parent="8" name="ingredientNr">
+    <column id="53" parent="11" name="ingredientNr">
       <Position>2</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="37" parent="8" name="amount">
+    <column id="54" parent="11" name="amount">
       <Position>3</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <foreign-key id="38" parent="8">
+    <foreign-key id="55" parent="11">
       <ColNames>orderNr</ColNames>
       <RefTableName>orders</RefTableName>
       <RefKeyName>orders_pk</RefKeyName>
       <RefColNames>orderNr</RefColNames>
     </foreign-key>
-    <foreign-key id="39" parent="8">
+    <foreign-key id="56" parent="11">
       <ColNames>ingredientNr</ColNames>
       <RefTableName>ingredients</RefTableName>
       <RefKeyName>ingredients_pk</RefKeyName>
       <RefColNames>ingredientNr</RefColNames>
     </foreign-key>
-    <column id="40" parent="9" name="customerNr">
+    <column id="57" parent="12" name="customerNr">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="41" parent="9" name="orderDate">
+    <column id="58" parent="12" name="orderDate">
       <Position>2</Position>
       <DataType>DATE|0s</DataType>
     </column>
-    <column id="42" parent="9" name="billingAmount">
+    <column id="59" parent="12" name="billingAmount">
       <Position>3</Position>
       <DataType>DECIMAL|0s</DataType>
     </column>
-    <column id="43" parent="9" name="orderNr">
+    <column id="60" parent="12" name="orderNr">
       <Position>4</Position>
       <DataType>INTEGER|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <key id="44" parent="9" name="orders_pk">
+    <key id="61" parent="12" name="orders_pk">
       <ColNames>orderNr</ColNames>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="45" parent="9">
+    <foreign-key id="62" parent="12">
       <ColNames>customerNr</ColNames>
       <RefTableName>customer</RefTableName>
       <RefKeyName>customer_pk</RefKeyName>
       <RefColNames>customerNr</RefColNames>
     </foreign-key>
-    <column id="46" parent="10" name="type">
+    <column id="63" parent="13" name="ID">
+      <Position>1</Position>
+      <DataType>INTEGER|0s</DataType>
+      <SequenceIdentity>null</SequenceIdentity>
+      <DefaultExpression>201</DefaultExpression>
+    </column>
+    <column id="64" parent="13" name="recipeNr">
+      <Position>2</Position>
+      <DataType>INTEGER|0s</DataType>
+    </column>
+    <column id="65" parent="13" name="ingredientsNr">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+    </column>
+    <key id="66" parent="13" name="recipeIngredients_pk">
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="67" parent="13">
+      <ColNames>recipeNr</ColNames>
+      <RefTableName>Recipes</RefTableName>
+      <RefKeyName>Recipes_pk</RefKeyName>
+      <RefColNames>recipeNr</RefColNames>
+    </foreign-key>
+    <foreign-key id="68" parent="13">
+      <ColNames>ingredientsNr</ColNames>
+      <RefTableName>ingredients</RefTableName>
+      <RefKeyName>ingredients_pk</RefKeyName>
+      <RefColNames>ingredientNr</RefColNames>
+    </foreign-key>
+    <column id="69" parent="14" name="type">
       <Position>1</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="47" parent="10" name="name">
+    <column id="70" parent="14" name="name">
       <Position>2</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="48" parent="10" name="tbl_name">
+    <column id="71" parent="14" name="tbl_name">
       <Position>3</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="49" parent="10" name="rootpage">
+    <column id="72" parent="14" name="rootpage">
       <Position>4</Position>
       <DataType>int|0s</DataType>
     </column>
-    <column id="50" parent="10" name="sql">
+    <column id="73" parent="14" name="sql">
       <Position>5</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="51" parent="11" name="name">
+    <column id="74" parent="15" name="name">
       <Position>1</Position>
     </column>
-    <column id="52" parent="11" name="seq">
+    <column id="75" parent="15" name="seq">
       <Position>2</Position>
     </column>
-    <column id="53" parent="12" name="supplierNr">
+    <column id="76" parent="16" name="supplierNr">
       <Position>1</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="54" parent="12" name="supplierName">
+    <column id="77" parent="16" name="supplierName">
       <Position>2</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="55" parent="12" name="street">
+    <column id="78" parent="16" name="street">
       <Position>3</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="56" parent="12" name="houseNr">
+    <column id="79" parent="16" name="houseNr">
       <Position>4</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="57" parent="12" name="plz">
+    <column id="80" parent="16" name="plz">
       <Position>5</Position>
       <DataType>INTEGER|0s</DataType>
     </column>
-    <column id="58" parent="12" name="city">
+    <column id="81" parent="16" name="city">
       <Position>6</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="59" parent="12" name="phoneNr">
+    <column id="82" parent="16" name="phoneNr">
       <Position>7</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <column id="60" parent="12" name="email">
+    <column id="83" parent="16" name="email">
       <Position>8</Position>
       <DataType>TEXT|0s</DataType>
     </column>
-    <key id="61" parent="12" name="supplier_pk">
+    <key id="84" parent="16" name="supplier_pk">
       <ColNames>supplierNr</ColNames>
       <Primary>1</Primary>
     </key>
